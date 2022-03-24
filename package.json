@@ -1,0 +1,23 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cll": "bin/cll.js",
+    "cll-add": "bin/cll.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0",
+    "glob": "^7.2.0",
+    "inquirer": "^8.2.0",
+    "latest-version": "^6.0.0",
+    "ora": "^6.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
