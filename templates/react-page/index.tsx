@@ -1,0 +1,21 @@
+
+import React, { useEffect, useState, useMemo } from 'react';
+//import { } from 'antd';
+// import {
+//   Box,
+// } from '@mui/material';
+// import { useMount, useRequest } from "ahooks";
+// import _ from "lodash";
+import "./index.less";
+
+const <%= fileName %> = (props:any) => {
+  const { } = props;
+  
+  return (
+    <div className='<%= className || fileName %>'>
+    </div>
+  );
+}
+
+export default <%= fileName %>;
+
