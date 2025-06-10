@@ -5,12 +5,17 @@
 1. 首先全局安装CLI工具：
 下载项目到本地，安装依赖。
 ```bash
+git clone xxxx
+```
+2.link 到全局
+
+```bash
 npm link
 // 或者
 yarn link
 ```
 
-2. 进入需要新建文件的目录，运行命令, 或者vscode右键选择在集成终端中打开
+3. 进入需要新建文件的目录，运行命令, 或者vscode右键选择在集成终端中打开
 ```bash
 cll add
 ```
